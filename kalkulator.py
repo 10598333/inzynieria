@@ -1,8 +1,11 @@
+def dodaj(a,b):
+	return a + b
 
+def get_help():
+	print("To jest prosty kalkulator")
+	print("Podaj dwie liczby, a ja je dodam")
 
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> czyszczenie_funkcji_dodawania
+get_help()
+x = int(input())
+y = int(input())
+print(dodaj(x,y))
